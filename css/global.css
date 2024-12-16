@@ -1,0 +1,285 @@
+/* global start */
+
+@import url(./normalize.css);
+/* livvic-500 - latin */
+@font-face {
+    font-display: swap;
+    /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Livvic';
+    font-style: normal;
+    font-weight: 500;
+    src: url('../fonts/livvic-v14-latin-500.woff2') format('woff2');
+    /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+  }
+  
+  /* livvic-600 - latin */
+  @font-face {
+    font-display: swap;
+    /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Livvic';
+    font-style: normal;
+    font-weight: 600;
+    src: url('../fonts/livvic-v14-latin-600.woff2') format('woff2');
+    /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+  }
+  
+  /* livvic-700 - latin */
+  @font-face {
+    font-display: swap;
+    /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Livvic';
+    font-style: normal;
+    font-weight: 700;
+    src: url('../fonts/livvic-v14-latin-700.woff2') format('woff2');
+    /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+  }
+
+  *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+ html{
+    height: 100%;
+  }
+
+  ul,
+  ol{
+    list-style: none;
+  }
+
+  a{
+    display: inline-block;
+    text-decoration: none;
+  }
+
+body{
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  font-family: "Livvic", sans-serif;
+  font-size: 15px;
+  line-height: 25px;
+  font-weight: 600;
+  background-color:#014e56
+}
+
+main{
+  flex-grow: 1;
+}
+
+img{
+  display: flex;
+}
+
+.contianer {
+  width: 100%;
+  max-width: 1210px;
+  padding-left: 50px;
+  padding-right: 50px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.btn{
+  border:2px solid ;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 28px;
+  padding: 9px 33px 11px 33px;
+  border-radius: 24px;
+  transition: 0.3s;
+}
+
+.btn:active{
+  opacity: 0.6;
+}
+
+.btn-white{
+  color:#fff;
+  border-color:#fff;
+}
+
+svg{
+  display: flex;
+}
+
+/* DRY - DO'NT REPEAT YOUR SELF */
+/* KISS - KEEP IT STUPID SIMPLE*/
+
+.btn-white:hover{
+  background-color:#fff;
+  color:#002529;
+}
+ 
+.btn-dark{
+  color:#002529;
+  border-color:#002529;
+}
+
+.btn-dark:hover{
+  background-color: #002529;
+  color:#fff;
+}
+
+.orange-text{
+  color:#f67e7e;
+}
+
+.blue-text{
+  color:#79c8c7;
+}
+
+.divider {
+  height: 4px;
+  width: 50px;  
+}
+
+.orange-divider{
+  background-color:#f67e7e;
+}
+
+.blue-divider {
+  background-color: #79c8c7;
+}
+
+#active{
+  color:#f67e7e;
+}
+
+/* global end */
+/* Header start */
+.header {
+  padding-top: 73px;
+  padding-bottom: 73px;
+}
+.header-contianer {
+  display: flex;
+  align-items: center;
+}
+
+.site-logo {
+  color:#fff;
+  margin-right: 80px;
+}
+
+.site-logo:hover{
+  opacity: 0.8
+}
+
+.site-logo:active{
+  opacity: 0.6;
+}
+
+.site-logo-image{
+
+}
+
+.sitenav {
+  margin-right: auto;
+}
+
+.sitenav-list {
+  display: flex;
+  gap: 40px;
+}
+
+.sitenav-item {
+}
+
+.sitenav-link {
+  color: #fff;
+}
+
+.sitenav-link:hover{
+  color: #f67e7e
+}
+
+.btn {
+}
+
+.btn-white {
+}
+
+.header-btn {
+}
+
+/* Header end */
+
+
+.cta {
+  background-color:#f67e7e;
+  padding-bottom: 76px;
+  padding-top: 76px;
+  background-image:url(../images/bg-pattern-home-6-about-5.svg);
+  background-repeat:no-repeat;
+  background-position:left bottom;
+  color:#012f34;
+}
+
+.cta-contianer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  max-width: 912px;
+}
+
+.cta-title {
+  font-size: 48px;
+}
+
+/* cta end */
+/* footer start */
+
+.footer {
+  padding-top:48px;
+  padding-bottom: 48px;
+  background-color:#002529;
+  color:#ffffff;
+}
+.footer-contianer {
+  display: flex;
+}
+
+.footer-nav {
+  margin-right: 125px;
+}
+.footer-nav .site-logo {
+  margin-bottom: 25px;
+}
+
+.footer-info{
+  margin-right: auto;
+}
+
+.footer-info address{
+  opacity: 0.6;
+  font-style: normal;
+}
+.footer-tel {
+  color: inherit;
+}
+.footer-terms-and-links {
+}
+.footer-links {
+  display: flex;
+  justify-content: flex-end;
+  gap: 16px;
+  align-items: center;
+}
+.footer-links-item {
+}
+.footer-links-link {
+  margin-bottom: 51px;
+}
+.footer-terms {
+  opacity: 0.6;
+}
+
+.footer-links-link:hover svg path{
+  fill: #f67e7e;
+}
+
+/* footer end */

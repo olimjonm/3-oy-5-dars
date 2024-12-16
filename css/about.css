@@ -1,0 +1,144 @@
+@import url(./global.css);
+
+/* hero start */
+
+.hero {
+  padding-top: 47px;
+  padding-bottom: 120px;
+  color:#ffffff;
+  background-image: url(../images/bg-pattern-about-1-mobile-nav-1.svg);
+  background-repeat: no-repeat;
+  background-position: right -100px bottom;
+}
+
+.hero-contianer {
+  display: flex;
+  justify-content: space-between;
+}
+
+.hero-title {
+  font-size: 64px;
+  line-height: 100px;
+}
+
+.hero-content{
+  width: 100%;
+  max-width: 730px;
+}
+
+.hero-divider {
+  margin-bottom: 40px;
+}
+
+.hero-description {
+  font-size:18px;
+  line-height:28px;
+}
+
+/* hero end */
+
+/* director start */
+
+.directors {
+  padding-top: 140px;
+  padding-bottom: 140px;
+  background-color: #004047;
+  color: #ffffff;
+  background-image: url(../images/bg-pattern-about-2-contact-1.svg), url(../images/bg-pattern-home-4-about-3.svg);
+  background-repeat:no-repeat;
+  background-position:left -100px top, right bottom
+}
+
+.directors-contianer {
+}
+
+.directors-title {
+  font-size: 48px;
+  line-height:48px;
+  text-align: center;
+  margin-bottom: 64px;
+}
+
+.directors-list {
+  display: flex;
+  row-gap: 76px;
+  column-gap: 30px;
+  flex-wrap: wrap;
+}
+
+.directors-list-item {
+  background-color:#012f34;
+  width: 100%;
+  max-width: 350px;
+  padding: 32px 24px 0 24px;
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: column;
+  align-items:center;
+}
+
+.directors-item-avatar {
+  width: 96px;
+  height: 96px;
+  border: 2px solid #C4FFFE;
+  border-radius: 50%;
+  margin-bottom: 16px;
+}
+
+.directors-item-title {
+  font-size:18px;
+  line-height: 28px;
+  color: #79c8c7;
+}
+.directors-item-level {
+  font-size: 15px;
+  font-weight: 500;
+}
+.directors-item-show-info-btn {
+  background: #F67E7E;
+  width: 56px;
+  height: 56px;
+  display: flex;
+  justify-content:center;
+  align-items: center;
+  border-radius: 50%;
+  border: 0;
+  cursor: pointer;
+  margin-top: 28px;
+  margin-bottom: -28px;
+}
+
+/* directors end */
+
+/* clients start */
+
+.clients {
+  padding-top: 150px;
+  padding-bottom: 150px;
+  background-color:#012f34;
+  color: #ffffff;
+  background-image:url(../images/bg-pattern-about-4.svg);
+  background-repeat:no-repeat;
+  background-position: let top;
+}
+
+.clients-contianer {
+}
+
+.clients-title{
+  font-size: 48px;
+  line-height: 48px;
+  text-align: center;
+  margin-bottom: 64px;
+}
+
+.clients-logo-list {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.clients-logo-item {
+}
+
+/* clients end */
